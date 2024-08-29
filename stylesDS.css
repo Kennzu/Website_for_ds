@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+
+}
+
+.text_up {
+    position: relative;
+    text-align: center;
+    /* font-family:; */
+}
+
+.header {
+    border: none;
+    border-top: 60px solid #579DFF;
+    background-color: transparent;
+    filter: blur(10);
+}
+
+.text_all_up {
+    flex-grow: 3;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text{
+    padding: 0 30px;
+    text-decoration: none;
+    color:aliceblue
+}
+
+.language{
+    position: absolute;
+    top: 19px;
+    margin-left: 1200px;
+}
+
+#lang{
+    background-color: #579DFF;
+    box-shadow: none;
+}
+
+.image_bird{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+
+/* Mask group */
+
+/* .somy_b{
+    /* position: absolute;
+    width: 815.48px;
+    height: 620.11px;
+    left: 698.07px;
+    top: 95.98px; */
+
+    /* transform: rotate(17.17deg); */
+
+
+    /* Turbotext AI Image 3181911 1 */
+
+    /* position: absolute;
+    width: 815.48px;
+    height: 620.11px;
+    left: 100.07px;
+    top: 95.98px;
+
+    background: url(.png);
+    transform: rotate(17.17deg); */
+
+
+    /* Rectangle 12 */
+/* 
+    position: absolute;
+    width: 853.97px;
+    height: 620.11px;
+    left: 669.55px;
+    top: 87.16px;
+
+    background: linear-gradient(145.42deg, #508CE0 22.28%, #155AB9 88.8%);
+    transform: rotate(17.17deg);
+} */
